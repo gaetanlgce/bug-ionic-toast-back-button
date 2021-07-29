@@ -13,8 +13,13 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div>
+    <ion-button (click)="openModal()">Open modal</ion-button>
+  </div>
+  <div>
+    <ion-button (click)="openToast()">Open toast</ion-button>
+  </div>
+  <div>
+    Back button with priority "2" called: {{ nbBackBtnCalled }} ties
   </div>
 </ion-content>

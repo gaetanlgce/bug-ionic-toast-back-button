@@ -1,5 +1,7 @@
 {
   "name": "bug-toast",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
